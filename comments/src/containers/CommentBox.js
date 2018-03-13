@@ -6,7 +6,7 @@ class CommentBox extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      data: [{ id: 1, author: "Beth", text: "I love cats!"}]
+      data: [{ id: 1, author: "Beth", text: "I love cats!"}, { id: 2, author: "Gemma", text: "I love horses!"}]
     };
   }
 
